@@ -1,0 +1,41 @@
+INSTALL GIT IN UBUNTU
+	$ sudo apt install git-all
+
+FOR CHECK THE GIT VERSION
+	$ git --version
+
+SET THE CONFIG USERNAME AND EMAIL FOR GIT
+	$ git config --global user.name "arpit dudhrejiya"
+    $ git config --global user.email "arpitdudhrejiya@gmail.com"
+      	
+To CHECK THE CONFIG IS SUCCESS FULL 
+	$ git config --global user.name
+		(echo: arpit dudhrejiya)
+    $ git config --global user.email
+      	(echo:arpitdudhrejiya@gmail.com)
+      		
+TO CHANGE THE CONFIG USERNAME AND EMAIL
+	git config --global --edit
+	
+TO CREATE THE GIT REPOSETRI IN YOUR PROJECT FOLDER
+	$ git init
+
+FOR CHECK AVAILABLE FILE IN GIT REPO FROM PROJECT FOLDER
+	$ ls
+
+FOR CHECK GIT REPO STATUS
+	$ git status
+
+FOR ADD FILE IN GIT REPO IN STAGING AREA
+	$ git add file_name(for ex: index.html)
+
+FOR ADD FILE IN GIT REPO WITH COMMIT
+	$ git commit -m "initial commit"
+
+FOR CHECK PERIVIEWS COMMIT IN GIT REPO	
+	$ git log
+
+
+
+ 		     
+
