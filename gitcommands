@@ -1,0 +1,71 @@
+INSTALL GIT IN UBUNTU
+	$ sudo apt install git-all
+
+FOR CHECK THE GIT VERSION
+	$ git --version
+
+SET THE CONFIG USERNAME AND EMAIL FOR GIT
+	$ git config --global user.name "arpit dudhrejiya"
+    $ git config --global user.email "arpitdudhrejiya@gmail.com"
+      	
+To CHECK THE CONFIG IS SUCCESS FULL 
+	$ git config --global user.name
+		(echo: arpit dudhrejiya)
+    $ git config --global user.email
+      	(echo:arpitdudhrejiya@gmail.com)
+      		
+TO CHANGE THE CONFIG USERNAME AND EMAIL
+	git config --global --edit
+	
+TO CREATE THE GIT REPOSETRI IN YOUR PROJECT FOLDER
+	$ git init
+
+FOR CHECK AVAILABLE FILE IN GIT REPO FROM PROJECT FOLDER
+	$ ls
+    
+FOR REMOVE GIT REPOSITORY
+    $ rm -rf .git
+
+FOR CHECK GIT REPO STATUS
+	$ git status
+
+FOR ADD FILE IN GIT REPO IN STAGING AREA
+	$ git add file_name(for ex: index.html)
+
+FOR ADD FILE IN GIT REPO WITH COMMIT
+	$ git commit -m "initial commit"
+
+FOR ADD ALL FILES IN GIT REPO FROM PROJECT FOLDER
+	$ git add .
+
+FOR CHECK PERIVIEWS COMMIT IN GIT REPO	
+	$ git log
+
+FOR UNDO THE FILE AND CONTAINT FROM GIT PERO(cuurent file to previews file)
+	$ git checkout 72f97c33cd4659a96dd9a731dd3455413bc893cd (hash code from commit)
+
+FOR BACK TO MAIN BRANCH 
+	$ git checkout master(last commit added file showing)
+
+TO CREATE BRANCH (BRANCH IS LIKE TREE MASTER->BRANCH_1->BRANCH_2)
+	$ git branch branch_name(for ex: dev)
+
+TO CHECK AVAILABLE BRANCHES 
+	$ git branch
+
+FOR GO TO CURRENT BRANCH TO ANOTHER BRANCH (MASTER TO DEV)
+	$ git checkout branch_name (for ex: dev)
+
+FOR CREATE AND GO TO THIS BRANCH (CREATE NEW AND MOVE TO NEW)
+	$ git checkout -b branch_name (for ex: arpit/profile)
+
+FOR MERGE THE BRANCH TO OTHER BRANCH (merge arpit/profile files to dev)
+	(first you go to dev branch than)
+	$ git merge arpit/profile
+	(merge dev to master go to master branch than)
+	$ git merge dev
+
+FOR CREATE A SECRET FILE IN GIT (NOT ADDED IN GIT REPO)
+	$ touch .gitingnore 
+			&
+	(crete directly (Ctrl + N) .gitingnore)

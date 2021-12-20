@@ -1,0 +1,28 @@
+NOTE: There are two option first is: if you create a new GIT repository and add code to GitHub repository and 
+      seccond is: if you have allready create Git repository and only push code to GitHub repository (go to second one this time)
+
+FISRT YOU CAN GO TO GITHUB AND CREATE A ACCOUNT THAN CREATE A REPOSITORY AND THAN YOU ADD AN EXISTING REPOSITORY (add gitlearn to GIT HUB)
+    $ git remote add origin https://github.com/arpitdudhrejiya/gitlearn.git
+
+FOR CHECK REPOSITORY
+    $ git remote -v
+
+THAN SECOND STEP
+    $ git branch -M master 
+
+THAN PUSH THE CODE TO REPOSITORY
+    $ git push -u origin master (origin is becouse of you can make in remote add in first step)
+
+DONE
+
+FOR COLABE WITH OTHER USER
+    
+
+
+
+
+git clone https://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@github.com/arpitdudhrejiya/gitlearn.git
+                                    or
+git remote set-url origin https://<token>@github.com/<username>/<repo>
+
+git remote set-url origin https://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@github.com/arpitdudhrejiya/First-Contribution
